@@ -91,7 +91,7 @@ ${T_p^*(M)}$ **is a linear space. It has a linear structure induced from the lin
 $$
 \left \{ \begin{array}{lc}
 [\widetilde{f\ }] + [\widetilde{g }] = [\widetilde{f +g\ }],\\
-\alpha[\widetilde{f\ }]=\widetilde{\alpha[f\ }].\\
+\alpha[\widetilde{f\ }] = \widetilde{\alpha[f\ }].\\
 \end{array} \right.
 
 $$
