@@ -72,7 +72,7 @@ $$
 \begin{aligned} \ll \gamma, [f]\gg &= (\left. \dfrac{df \circ \gamma}{dt}) \right|_{t=0} \\ &= \left .\dfrac{d}{dt}F(x^1,x^2,...,x^m)\right|_{t=0}  \\ &= \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i})_{\varphi_U(p)} \cdot \left .\dfrac{d (\varphi_U \circ \gamma(t))^i}{dt} \right|_{t=0} \\ &= \sum\limits_i^m \left. \frac{\partial F}{\partial x^i} \right|_{\varphi_U(p)}\cdot \left.  \frac{dx^i}{dt} \right|_{t=0} \end{aligned}
 $$
 
-***because ${\gamma (t) \in \Gamma_p}$ is an arbitary curve, so $\Large {\frac{dx^i}{dt} \Large|\normalsize_{t=0}}$ is arbitary real value. For arbitary ${\gamma (t) \in \Gamma_p}$  , a necessary and sufficent condition for ${\ll\gamma, [f]\gg=0}$ is*** 
+because ${\gamma (t) \in \Gamma_p}$ is an arbitary curve, so $\Large {\frac{dx^i}{dt} \Large|\normalsize_{t=0}}$ is arbitary real value. For arbitary ${\gamma (t) \in \Gamma_p}$  , a necessary and sufficent condition for ${\ll\gamma, [f]\gg=0}$ is
 
 $$
 \left. \frac{\partial F}{\partial x^i} \right|_{\varphi_U(p)} =0, \quad \quad 1 \le \ i \ \le \ m.
