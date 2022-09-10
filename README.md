@@ -24,7 +24,7 @@ By introducting addition and scalar multipication into ${\mathscr{F}_p}$, it bec
 $$
 \left \{ \begin{aligned}
 [f] + [g] = [f + g],\\
-\alpha[f]=[\alpha f].\\
+\alpha [f] = [\alpha f].\\
 \end{aligned} \right.
 $$
 
