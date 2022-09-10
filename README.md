@@ -50,19 +50,19 @@ $$
 \mathscr{H}_p=\{[f] \in \mathscr{F}_p|{\ll\gamma, [f]\gg=0}，\ {\forall} \gamma \in \Gamma_p\}.
 $$
 
-**Theorem 1. *Suppose ${[f]} \in \mathscr F_p$, for an admissible coordinate chart ${(U,\varphi_U)}$, let***
+Theorem 1. Suppose ${[f]} \in \mathscr F_p$, for an admissible coordinate chart ${(U,\varphi_U)}$, let
 
 $$
 F(x^1, x^2, ..., x^m) = f \circ \varphi_U^{-1}(x^1, x^2, ..., x^m)
 $$
 
-***then, ${[f] \in \mathscr H_p}$  if and only if*** 
+then, ${[f] \in \mathscr H_p}$  if and only if
 
 $$
 \left. \frac{\partial F}{\partial x^i} \right| \small \varphi_U(p)=0, \quad \quad 1 \le \ i \ \le \ m.
 $$
 
-***Proof. Suppose***  ${\gamma (t) \in \Gamma_p}$
+Proof. Suppose ${\gamma (t) \in \Gamma_p}$
 
 $$
 {(\varphi_U \circ \gamma (t))^i}=x^i(t),\quad \quad 1 \le \ i \ \le \ m.
@@ -78,7 +78,7 @@ $$
 \left. \frac{\partial F}{\partial x^i} \right|_{\varphi_U(p)} =0, \quad \quad 1 \le \ i \ \le \ m.
 $$
 
-**Theorem 1 indicates that subspace ${\mathscr H_p}$ is exactly the linear space of germs of smooth functions whose partial derivatives with respect to local coordinates all vanish at  ${p}$.**
+Theorem 1 indicates that subspace ${\mathscr H_p}$ is exactly the linear space of germs of smooth functions whose partial derivatives with respect to local coordinates all vanish at  ${p}$.
 
 ---
 
@@ -98,32 +98,32 @@ $$
 
 ---
 
-***Theorem 2.  Suppose ${f^1}$, ${f^2}$, …, ${f^s} \in C_p^\infty$ and  ${F(y^1, y^2, …, y^s)}$  is a smooth function in a neighborhood of ${(f^1(p), f^2(p), ..., f^s(p)) \in \mathbb R^s}$. Then ${f=F(f^1, f^2, …, f^s) \in C_p^\infty}$ and*** 
+Theorem 2.  Suppose ${f^1}$, ${f^2}$, …, ${f^s} \in C_p^\infty$ and  ${F(y^1, y^2, …, y^s)}$  is a smooth function in a neighborhood of ${(f^1(p), f^2(p), ..., f^s(p)) \in \mathbb R^s}$. Then ${f=F(f^1, f^2, …, f^s) \in C_p^\infty}$ and 
 
 $$
 df_p = \sum \limits_k^s (\frac{\partial F}{\partial f^k})_{(f^1(p), f^2(p), ..., f^s(p))} \cdot (df^k)_p
 $$
 
-***Proof.* ${f(p)=F(f^1(p), f^2(p), ..., f^s(p))}$, since ${f=F(f^1, f^2, …, f^s) \in C_p^\infty}$ so ${f(p) \in C_p^\infty}$, let**
+Proof. ${f(p)=F(f^1(p), f^2(p), ..., f^s(p))}$, since ${f=F(f^1, f^2, …, f^s) \in C_p^\infty}$ so ${f(p) \in C_p^\infty}$, let
 
 $$
 {a_k = (\frac{\partial F}{\partial f^k})_{(f^1(p), f^2(p), ..., f^s(p))}}
 $$
 
-**for an arbitrary ${\gamma(t)}$,**
+for an arbitrary ${\gamma(t)}$,
 
 $$
 \begin{aligned} \ll \gamma, [f]\gg &= \left. \dfrac{d(f \circ \gamma)}{dt} \right|_{t=0} \\ &= \sum \limits_k^s(\frac{\partial F}{\partial f^k})_{(f^1(p), f^2(p), ..., f^s(p))} \cdot \left.  \dfrac{d(f^k \circ \gamma(t))}{dt} \right|_{t=0} \\ &= \sum \limits_k^s a_k \cdot \ll \gamma, [f^k] \gg. 
 \end{aligned}
 $$
 
-**Thus,**
+Thus,
 
 $$
  [f] -\sum \limits_k^s a_k [f^k]=0,
 $$
 
-**i.e.**
+i.e.
 
 $$
 (df)_p = \sum \limits_k^s a_k (df^k)_p.
@@ -131,29 +131,29 @@ $$
 
 ---
 
-**Corollary 1. For any ${[f]}$, ${[g] \in C_p^\infty}$,  ${a \in \mathbb R}$, have**
+Corollary 1. For any ${[f]}$, ${[g] \in C_p^\infty}$,  ${a \in \mathbb R}$, have
 
 $$
 \begin{aligned} &d(f+g)_p=(df)_p + (dg)_p, \\ &d(af)_p=a \cdot(df)_p, \\ &d(fg)_p=g\cdot(df)_p + f\cdot (dg)_p. \end{aligned}
 $$
 
-***Proof.* …**
+Proof. …
 
-***Corollary 2. ${dim (T_p^*)=m}$.***
+Corollary 2. ${dim (T_p^*)=m}$.
 
-***Proof.* Choose an admissible coordinate chart ${(U, \varphi_U)}$, and define local coordinates ${u^i}$ by**
+Proof. Choose an admissible coordinate chart ${(U, \varphi_U)}$, and define local coordinates ${u^i}$ by
 
 $$
 u^i(p) = f^i(p) = (\varphi_U(p))^i
 $$
 
-**as Theorem 2 have** 
+as Theorem 2 have
 
 $$
 \begin{aligned}f &= F(f^1(p), f^2(p), ...,f^m(p)) \\ &= F(u^1(p), u^2(p), ...,u^m(p)) \end{aligned}
 $$
 
-**then**
+then
 
 $$
 \begin{aligned}(df)_p &= \sum \limits_i^s (\frac{\partial F}{\partial u^i})_{(u^1(p), u^2(p), ..., u^s(p))} \cdot(du^i)_p \\ &= \sum \limits_i^s a_i (du^i)_p \\ where \quad &a_i = (\frac{\partial F}{\partial u^i})_{(u^1(p), u^2(p), ..., u^s(p))} \end{aligned}
@@ -165,13 +165,13 @@ $$
 \sum \limits_i^s a_i (du^i)_p = 0 \\i.e. \quad \sum \limits_i^s a_i [u^i] \in \mathscr H_p
 $$
 
-**so for any ${\gamma_(t) \in \Gamma_p}$, have**
+so for any ${\gamma_(t) \in \Gamma_p}$, have
 
 $$
 \ll \gamma(t), \sum \limits_i^s a_i [u^i] \gg \ = \ \sum \limits_i^s a_i \left. \frac{d(u^i \circ \gamma(t))}{dt}\right|_{t=0} \normalsize =0
 $$
 
-**select ${\lambda_k(t) \in \Gamma_p}$, ${1 \le \ k \ \le \ m}$, let**
+select ${\lambda_k(t) \in \Gamma_p}$, ${1 \le \ k \ \le \ m}$, let
 
 $$
 u^i \circ \lambda_k(t) = u^i(p) + \delta_k^it,
@@ -181,19 +181,19 @@ $$
 where \quad \delta_k^i =\left \{ \begin{array}{lc} 1, \quad i=k, \\0, \quad i \neq k. \end{array} \right.
 $$
 
-**then**
+then
 
 $$
 \quad \quad \left.  \dfrac{d(u^i \circ \lambda_k(t))}{dt}\right|_{t=0} = \delta_k^i,
 $$
 
-**so**
+so
 
 $$
 \begin{aligned} \ll \lambda_k(t), \sum \limits_i^s a_i [u^i] \gg \ &= \ \sum \limits_i^s a_i \left. \dfrac{d(u^i \circ \lambda_k(t))}{dt}\right|_{t=0} \\&= \sum \limits_i^s a_i \delta_k^i = 0.\end{aligned}
 $$
 
-**hence  ${\{a_k=0,\ 1 \ \le k \ \le \ m\}}$,  ${\{(du^i)_p,\ 1 \ \le i \ \le \ m\}}$ is linearly independent. Therefore it forms a basis for ${T_p^*(M)}$ , called the natural basis of ${T_p^*(M)}$  with respect to the local coordinate system {u^i}. Thus ${T_p^*(M)}$ is an m-dimensional linear space.**
+hence  ${\{a_k=0,\ 1 \ \le k \ \le \ m\}}$,  ${\{(du^i)_p,\ 1 \ \le i \ \le \ m\}}$ is linearly independent. Therefore it forms a basis for ${T_p^*(M)}$ , called the natural basis of ${T_p^*(M)}$  with respect to the local coordinate system {u^i}. Thus ${T_p^*(M)}$ is an m-dimensional linear space.
 
 ---
 
@@ -265,25 +265,25 @@ so ${\{[\lambda_k]| 1 \le \ k \ \le m\}}$ can be viewed as the dual baisis of ${
 
 ### P**artial differential operators**
 
-**Furthermore,**
+Furthermore,
 
 $$
 \color{red} \begin{aligned}<[\lambda_k], (df)_p > \ &= \ <[\lambda_k],\sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^i})_p \cdot (du^i)_p> \\ &= \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^i})_p \ \cdot<[\lambda_k],(du^i)_p> \\ &= \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^i})_p \cdot \delta_k^i \\ &= (\frac{\partial f \circ \varphi_U^{-1} }{\partial u^k})_p \end{aligned}
 $$
 
-**Thus, the ${[\lambda_k]}$ are the partial differential operators ${(\partial/\partial u^k)}$ on the function germs ${[f]}$. Then**
+Thus, the ${[\lambda_k]}$ are the partial differential operators ${(\partial/\partial u^k)}$ on the function germs ${[f]}$. Then
 
 $$
 \color{red} <[\lambda_k],(du^i)_p> \ = \ \left. <\frac{\partial}{\partial u^k}\right |_{p},(du^i)_p> = \delta_k^i. 
 
 $$
 
-**We call the basis of  ${\{ (\partial/\partial u^i)_p, 1 \le \ i \ \le m\}}$ in ${T_p}$ the Natural Basis of the tangent space under the local coordinate system ${u^i}$.**
+We call the basis of  ${\{ (\partial/\partial u^i)_p, 1 \le \ i \ \le m\}}$ in ${T_p}$ the Natural Basis of the tangent space under the local coordinate system ${u^i}$.
 
-**So from ${<[\gamma], (df)_p > = \sum \limits_i^m a_i \xi^i}$ , have**
+So from ${<[\gamma], (df)_p > = \sum \limits_i^m a_i \xi^i}$ , have
 
 $$
 \color{red} [\gamma] = \sum \limits_i^m \xi^i \left. \frac{\partial}{\partial u^i}\right|_{p}
 $$
 
-**the ${\{\xi^i, 1 \le \ i \ \le m\}}$ are componets of the tangent vector ${[\gamma]}$ regards to natural basis ${\{ (\partial/\partial u^i)_p, 1 \le \ i \ \le m\}}$.**
+the ${\{\xi^i, 1 \le \ i \ \le m\}}$ are componets of the tangent vector ${[\gamma]}$ regards to natural basis ${\{ (\partial/\partial u^i)_p, 1 \le \ i \ \le m\}}$.
