@@ -22,10 +22,10 @@ Suppose ${p}$ is a fixed point of the m-dimension smooth manifold ${M}$. Let  ${
 By introducting addition and scalar multipication into ${\mathscr{F}_p}$, it becomes a linear space, so for ${[f]}$ and ${[g]} \in\mathscr{F}_p$, ${\alpha} \in \mathbb{R}$, define
 
 $$
-\left \{ \begin{array}{lc}
+\left\{ \begin{array}{lc}
 [f] + [g] = [f + g],\\
 \alpha [f] = [\alpha f].\\
-\end{array} \right
+\end{array} \right.
 $$
 
 ---
