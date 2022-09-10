@@ -25,7 +25,7 @@ $$
 \left \{ \begin{array}{lc}
 [f] + [g] = [f + g],\\
 \alpha [f] = [\alpha f].\\
-\end{array} \right.
+\end{array} \right
 $$
 
 ---
