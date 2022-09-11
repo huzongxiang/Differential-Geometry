@@ -50,7 +50,7 @@ $$
 \mathscr{H}_p=\{[f] \in \mathscr{F}_p|{\ll\gamma, [f]\gg=0}，\ {\forall} \gamma \in \Gamma_p\}.
 $$
 
-Theorem 1. Suppose ${[f]} \in \mathscr F_p$, for an admissible coordinate chart ${(U,\varphi_U)}$, let
+***Theorem 1.*** Suppose ${[f]} \in \mathscr F_p$, for an admissible coordinate chart ${(U,\varphi_U)}$, let
 
 $$
 F(x^1, x^2, ..., x^m) = f \circ \varphi_U^{-1}(x^1, x^2, ..., x^m)
@@ -84,9 +84,9 @@ Theorem 1 indicates that subspace ${\mathscr H_p}$ is exactly the linear space o
 
 ### Definition
 
-The quotient space ${\mathscr F_p/\mathscr H_p}$  is called ***Cotangent Space*** of ${M}$ at ${p}$, denoted by ${T_p^*(M)}$ or ${T_p^*}$. The ${\mathscr H_p}$-equivalence class of the function germ ${[f]}$ ******is denoted by ${[\widetilde{f\ }]}$ or ${(df)_p}$***,*** and is called a cotangent vector on ${M}$ **at ${p}$***.***
+The quotient space ${\mathscr F_p/\mathscr H_p}$  is called ***Cotangent Space*** of ${M}$ at ${p}$, denoted by ${T_p^*(M)}$ or ${T_p^*}$. The ${\mathscr H_p}$-equivalence class of the function germ ${[f]}$ is denoted by ${[\widetilde{f\ }]}$ or ${(df)_p}$, and is called a cotangent vector on ${M}$ at ${p}$.
 
-${T_p^*(M)}$ **is a linear space. It has a linear structure induced from the linear space ${\mathscr F_p}$**,** i.e. for ${[f]}$ and ${[g] \in \mathscr F_p}$,  we have
+${T_p^*(M)}$ is a linear space. It has a linear structure induced from the linear space ${\mathscr F_p}$, i.e. for ${[f]}$ and ${[g] \in \mathscr F_p}$,  we have
 
 $$
 \left \{ \begin{array}{lc}
@@ -98,7 +98,7 @@ $$
 
 ---
 
-Theorem 2.  Suppose ${f^1}$, ${f^2}$, …, ${f^s} \in C_p^\infty$ and  ${F(y^1, y^2, …, y^s)}$  is a smooth function in a neighborhood of ${(f^1(p), f^2(p), ..., f^s(p)) \in \mathbb R^s}$. Then ${f=F(f^1, f^2, …, f^s) \in C_p^\infty}$ and 
+***Theorem 2.***  Suppose ${f^1}$, ${f^2}$, …, ${f^s} \in C_p^\infty$ and  ${F(y^1, y^2, …, y^s)}$  is a smooth function in a neighborhood of ${(f^1(p), f^2(p), ..., f^s(p)) \in \mathbb R^s}$. Then ${f=F(f^1, f^2, …, f^s) \in C_p^\infty}$ and 
 
 $$
 df_p = \sum \limits_k^s (\frac{\partial F}{\partial f^k})_{(f^1(p), f^2(p), ..., f^s(p))} \cdot (df^k)_p
@@ -223,7 +223,7 @@ $$
 
 ${\{[\gamma]| \gamma \in \Gamma_p\}}$ is the dual space of cotangent space ${T_p^*}$. The proof is as follows
 
-Under the local coordinates ${u^i}$*,* suppose ${\gamma \in \Gamma_p}$**,** is given by the functions ${u^i = u^i(t) = (\varphi_U \circ \gamma(t))^i, 1 \le \ i \ \le m}$. From ***Theorem 1***, ${f \circ \varphi^{-1}(u^1, u^2, …,u^m) = F(u^1, u^2, …,u^m)}$ , then can derive that
+Under the local coordinates ${u^i}$, suppose ${\gamma \in \Gamma_p}$, is given by the functions ${u^i = u^i(t) = (\varphi_U \circ \gamma(t))^i, 1 \le \ i \ \le m}$. From Theorem 1, ${f \circ \varphi^{-1}(u^1, u^2, …,u^m) = F(u^1, u^2, …,u^m)}$ , then can derive that
 
 $$
 \begin{aligned} <[\gamma], (df)_p > \ &= \ \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i})_{\varphi_U(p)} \cdot \left .\dfrac{d (\varphi_U \circ \gamma(t))^i}{dt} \right|_{t=0}\\ &= \ \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i})_{\varphi_U(p)} \cdot (\dfrac{d u^i(t)}{dt})_{t=0} \\ &= \ \sum \limits_i^m a_i \xi^i \end{aligned} \\ where \quad a_i= \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i})_{\varphi_U(p)}, \quad (\dfrac{d u^i(t)}{dt})_{t=0}
