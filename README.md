@@ -73,8 +73,8 @@ $$
 
 $$
 \begin{aligned} \ll \gamma, [f]\gg &= (\left. \dfrac{df \circ \gamma}{dt}) \right|_{t=0} \\
-&= \left .\dfrac{d}{dt}F(x^1,x^2,...,x^m)\right|_{t=0}  \\
-&= \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i})_{\varphi_U(p)} \cdot \left .\dfrac{d (\varphi_U \circ \gamma(t))^i}{dt} \right|_{t=0} \\
+&= \left.\dfrac{d}{dt}F(x^1,x^2,...,x^m)\right| _{t=0}  \\
+&= \sum \limits_i^m \letf( \frac{\partial f \circ \varphi_U^{-1}}{\partial u^i} \right) _{\varphi_U(p)} \cdot \left .\dfrac{d (\varphi_U \circ \gamma(t))^i}{dt} \right|_{t=0} \\
 &= \sum\limits_i^m \left. \frac{\partial F}{\partial x^i} \right|_{\varphi_U(p)}\cdot \left.  \frac{dx^i}{dt} \right|_{t=0} \end{aligned}
 $$
 
@@ -112,14 +112,14 @@ $$
 Proof. ${f(p)=F(f^1(p), f^2(p), ..., f^s(p))}$, since ${f=F(f^1, f^2, …, f^s) \in C_p^\infty}$ so ${f(p) \in C_p^\infty}$, let
 
 $$
-{a_k = (\frac{\partial F}{\partial f^k})_{(f^1(p), f^2(p), ..., f^s(p))}}
+{a_k = \left( \frac{\partial F}{\partial f^k} \right) _{(f^1(p), f^2(p), ..., f^s(p))}}
 $$
 
 for an arbitrary ${\gamma(t)}$,
 
 $$
 \begin{aligned} \ll \gamma, [f]\gg &= \left. \dfrac{d(f \circ \gamma)}{dt} \right|_{t=0} \\
-&= \sum \limits_k^s(\frac{\partial F}{\partial f^k})_{(f^1(p), f^2(p), ..., f^s(p))} \cdot \left.  \dfrac{d(f^k \circ \gamma(t))}{dt} \right|_{t=0} \\
+&= \sum \limits_k^s \left( \frac{\partial F}{\partial f^k}\right) _{(f^1(p), f^2(p), ..., f^s(p))} \cdot \left.\dfrac{d(f^k \circ \gamma(t))}{dt} \right| _{t=0} \\
 &= \sum \limits_k^s a_k \cdot \ll \gamma, [f^k] \gg. 
 \end{aligned}
 $$
@@ -166,9 +166,9 @@ $$
 then
 
 $$
-\begin{aligned}(df)_p &= \sum \limits_i^s (\frac{\partial F}{\partial u^i})_{(u^1(p), u^2(p), ..., u^s(p))} \cdot(du^i)_p \\
+\begin{aligned}(df)_p &= \sum \limits_i^s \left( \frac{\partial F}{\partial u^i} \right) _{(u^1(p), u^2(p), ..., u^s(p))} \cdot(du^i)_p \\
 &= \sum \limits_i^s a_i (du^i)_p \\
-where \quad &a_i = (\frac{\partial F}{\partial u^i})_{(u^1(p), u^2(p), ..., u^s(p))} \end{aligned}
+where \quad &a_i = \left( \frac{\partial F}{\partial u^i}\right) _{(u^1(p), u^2(p), ..., u^s(p))} \end{aligned}
 $$
 
 **Thus, any ${(df)_p}$ is a linear combination of the ${(du^k)_p}$, ${1 \le \ k \ \le \ m}$, if there have real values ${a_k}$, such that**
@@ -181,7 +181,7 @@ $$
 so for any ${\gamma_(t) \in \Gamma_p}$, have
 
 $$
-\ll \gamma(t), \sum \limits_i^s a_i [u^i] \gg \ = \ \sum \limits_i^s a_i \left. \frac{d(u^i \circ \gamma(t))}{dt}\right|_{t=0} \normalsize =0
+\ll \gamma(t), \sum \limits_i^s a_i [u^i] \gg \ = \ \sum \limits_i^s a_i \left. \frac{d(u^i \circ \gamma(t))}{dt}\right| _{t=0} \normalsize =0
 $$
 
 select ${\lambda_k(t) \in \Gamma_p}$, ${1 \le \ k \ \le \ m}$, let
