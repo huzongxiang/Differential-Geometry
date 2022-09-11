@@ -251,7 +251,7 @@ $$
 where
 
 $$
-a_i=\left(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i}\right)_{\varphi_U(p)}, \quad \xi^i=\left(\dfrac{d u^i(t)}{dt}\right)_{t=0}
+a_i=\left(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i}\right) _{\varphi_U(p)}, \quad \xi^i=\left(\dfrac{d u^i(t)}{dt}\right) _{t=0}
 $$
 
 Due to ${\gamma \in \Gamma_p}$ is arbitrary, so ${\{\xi^i\}}$ can be arbitrary real values such that ${<[\gamma, \cdot>]}$ is all of the linear mappings on ${T_p^*}$. The ${[\gamma]}$ forms a dual space of ${T_p^*}$, called the tangent space of ${M}$ at ${p}$.
