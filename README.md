@@ -41,7 +41,8 @@ $$
 Obviously, the ${\ll \ , \ \gg}$  is linear with respect to the second variable. For arbitrary ${\gamma \in \Gamma_p}$, ${[f]}$ and ${[g] \in \mathscr F_p}$, have
 
 $$
-\begin{align} \ll \gamma, [f] + [g]\gg &= \ll \gamma, [f]\gg + \ll \gamma, [g]\gg,\\ \ll \gamma, \alpha [f]\gg &= \alpha \ll \gamma, [f]\gg.  \end{align}
+\begin{align} \ll \gamma, [f] + [g]\gg &= \ll \gamma, [f]\gg + \ll \gamma, [g]\gg,\\
+\ll \gamma, \alpha [f]\gg &= \alpha \ll \gamma, [f]\gg.  \end{align}
 $$
 
 Thus, Let ${\ll\gamma, [f]\gg=0}$ can get a linear subspace of ${\mathscr{F}_p}$ as
