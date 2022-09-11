@@ -95,11 +95,10 @@ The quotient space ${\mathscr F_p/\mathscr H_p}$  is called ***Cotangent Space**
 ${T_p^*(M)}$ is a linear space. It has a linear structure induced from the linear space ${\mathscr F_p}$, i.e. for ${[f]}$ and ${[g] \in \mathscr F_p}$,  we have
 
 $$
-\left \{ \begin{array}{lc}
+\begin{cases}
 [\widetilde{f\ }] + [\widetilde{g }] = [\widetilde{f +g\ }],\\
 \alpha[\widetilde{f\ }] = \widetilde{\alpha[f\ }].\\
-\end{array} \right.
-
+\end{cases}
 $$
 
 ---
