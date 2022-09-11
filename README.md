@@ -32,8 +32,8 @@ $$
 
 $$
 \begin{cases}
-n/2,  & \text{if $n$ is even} \\\\
-3n+1, & \text{if $n$ is odd}
+[f] + [g] = [f + g],\\ 
+\alpha [f] = [\alpha f].
 \end{cases}
 $$
 
