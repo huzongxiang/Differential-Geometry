@@ -74,7 +74,7 @@ $$
 $$
 \begin{aligned} \ll \gamma, [f]\gg &= (\left. \dfrac{df \circ \gamma}{dt}) \right| _{t=0} \\
 &= \left.\dfrac{d}{dt}F(x^1,x^2,...,x^m)\right| _{t=0}  \\
-&= \sum \limits_i^m \left( \frac{\partial f \circ \varphi_U^{-1}}{\partial u^i}\right) _{\varphi_U(p)} \cdot \left.\dfrac{d (\varphi_U \circ \gamma(t))^i}{dt} \right|_{t=0} \\
+&= \sum \limits_i^m \left(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i}\right) _{\varphi_U(p)} \cdot \left.\dfrac{d (\varphi_U \circ \gamma(t))^i}{dt} \right|_{t=0} \\
 &= \sum\limits_i^m \left.\frac{\partial F}{\partial x^i} \right| _{\varphi_U(p)}\cdot \left.\frac{dx^i}{dt}\right| _{t=0} \end{aligned}
 $$
 
