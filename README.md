@@ -302,7 +302,7 @@ $$
 Thus, the ${[\lambda_k]}$ are the partial differential operators ${(\partial/\partial u^k)}$ on the function germs ${[f]}$. Then
 
 $$
-\color{red} <[\lambda_k],(du^i)_p> \ = \ \left. <\frac{\partial}{\partial u^k}\right |_{p}, (du^i)_p> = \delta_k^i. 
+\color{red} <[\lambda_k],(du^i)_p> \ = \ <\frac{\partial}{\partial u^k}|_{p}, (du^i)_p> = \delta_k^i. 
 
 $$
 
