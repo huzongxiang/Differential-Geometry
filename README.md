@@ -293,7 +293,7 @@ so ${\{[\lambda_k]| 1 \le \ k \ \le m\}}$ can be viewed as the dual baisis of ${
 Furthermore,
 
 $$
-\begin{aligned} <[\lambda_k], (df)_p > \ &= \ <[\lambda_k],\sum \limits_i^m \left(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^i}\right) _p \cdot (du^i)_p> \\
+\begin{aligned} <[\lambda_k], (df)_p > \ &= \ \left<[\lambda_k],\sum \limits_i^m \left(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^i}\right) _p \cdot (du^i)_p \right> \\
 &= \sum \limits_i^m \left(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^i}\right) _p \ \cdot<[\lambda_k],(du^i)_p> \\
 &= \sum \limits_i^m \left(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^i}\right) _p \cdot \delta_k^i \\
 &= \left(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^k}\right) _p \end{aligned}
