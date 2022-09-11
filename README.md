@@ -210,7 +210,7 @@ $$
 &= \sum \limits_i^s a_i \delta_k^i = 0.\end{aligned}
 $$
 
-hence  ${\{a_k=0,\ 1 \ \le k \ \le \ m\}}$,  ${\{(du^i)_p,\ 1 \ \le i \ \le \ m\}}$ is linearly independent. Therefore it forms a basis for ${T_p^*(M)}$ , called the natural basis of ${T_p^*(M)}$  with respect to the local coordinate system {u^i}. Thus ${T_p^*(M)}$ is an m-dimensional linear space.
+hence  ${\{a_k=0,\ 1 \ \le k \ \le \ m\}}$,  ${\{(du^i)_p,\ 1 \ \le i \ \le \ m\}}$ is linearly independent. Therefore it forms a basis for ${T_p^* (M)}$ , called the natural basis of ${T_p^* (M)}$  with respect to the local coordinate system ${u^i}$. Thus ${T_p^* (M)}$ is an m-dimensional linear space.
 
 ---
 
