@@ -62,7 +62,7 @@ $$
 then, ${[f] \in \mathscr H_p}$  if and only if
 
 $$
-\left. \frac{\partial F}{\partial x^i} \right| \small \varphi_U(p)=0, \quad \quad 1 \le \ i \ \le \ m.
+\left.\frac{\partial F}{\partial x^i} \right| _{\varphi_U(p)} = 0, \quad \quad 1 \le \ i \ \le \ m.
 $$
 
 Proof. Suppose ${\gamma (t) \in \Gamma_p}$
