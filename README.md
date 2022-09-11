@@ -293,7 +293,7 @@ so ${\{[\lambda_k]| 1 \le \ k \ \le m\}}$ can be viewed as the dual baisis of ${
 Furthermore,
 
 $$
-\begin{aligned} \left< [\lambda_k], (df)_p > \ &= \ <[\lambda_k],\sum \limits_i^m \left(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^i}\right) _p \cdot (du^i)_p \right> \\
+\begin{aligned} \left<[\lambda_k], (df)_p > \ &= \ <[\lambda_k],\sum \limits_i^m \left(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^i}\right) _p \cdot (du^i)_p\right> \\
 &= \sum \limits_i^m \left(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^i}\right) _p \ \cdot<[\lambda_k],(du^i)_p> \\
 &= \sum \limits_i^m \left(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^i}\right) _p \cdot \delta_k^i \\
 &= \left(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^k}\right) _p \end{aligned}
@@ -302,7 +302,7 @@ $$
 Thus, the ${[\lambda_k]}$ are the partial differential operators ${(\partial/\partial u^k)}$ on the function germs ${[f]}$. Then
 
 $$
-<[\lambda_k],(du^i)_p> \ = \ \left. <\frac{\partial}{\partial u^k}\right|_{p}, (du^i)_p> = \delta_k^i. 
+<[\lambda_k],(du^i)_p> \ = \ <\left.\frac{\partial}{\partial u^k}\right|_{p}, (du^i)_p> = \delta_k^i. 
 $$
 
 We call the basis of  ${\{ (\partial/\partial u^i)_p, 1 \le \ i \ \le m\}}$ in ${T_p}$ the Natural Basis of the tangent space under the local coordinate system ${u^i}$.
