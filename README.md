@@ -293,10 +293,10 @@ so ${\{[\lambda_k]| 1 \le \ k \ \le m\}}$ can be viewed as the dual baisis of ${
 Furthermore,
 
 $$
-\begin{aligned}<[\lambda_k], (df)_p > \ &= \ <[\lambda_k],\sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^i})_p \cdot (du^i)_p> \\
-&= \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^i})_p \ \cdot<[\lambda_k],(du^i)_p> \\
-&= \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^i})_p \cdot \delta_k^i \\
-&= (\frac{\partial f \circ \varphi_U^{-1} }{\partial u^k})_p \end{aligned}
+\begin{aligned}<[\lambda_k], (df)_p > \ &= \ <[\lambda_k],\sum \limits_i^m \left(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^i}\right) _p \cdot (du^i)_p> \\
+&= \sum \limits_i^m \left(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^i}\right) _p \ \cdot<[\lambda_k],(du^i)_p> \\
+&= \sum \limits_i^m \left(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^i}\right) _p \cdot \delta_k^i \\
+&= \left(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^k}\right) _p \end{aligned}
 $$
 
 Thus, the ${[\lambda_k]}$ are the partial differential operators ${(\partial/\partial u^k)}$ on the function germs ${[f]}$. Then
