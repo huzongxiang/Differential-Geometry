@@ -242,8 +242,8 @@ Under the local coordinates ${u^i}$, suppose ${\gamma \in \Gamma_p}$, is given b
 $$
 \begin{aligned} <[\gamma], (df)_p > \ &= \ \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i})_{\varphi_U(p)} \cdot \left .\dfrac{d (\varphi_U \circ \gamma(t))^i}{dt} \right|_{t=0}\\
 &= \ \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i})_{\varphi_U(p)} \cdot (\dfrac{d u^i(t)}{dt})_{t=0} \\
-&= \ \sum \limits_i^m a_i \xi^i \end{aligned} \\
-where \quad a_i= \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i})_{\varphi_U(p)}, \quad (\dfrac{d u^i(t)}{dt})_{t=0}
+&= \ \sum \limits_i^m a_i \xi^i \end{aligned}. \\
+where \quad a_i= \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i})_{\varphi_U(p)}, \quad (\dfrac{d u^i(t)}{dt})_{t=0}.
 $$
 
 Due to ${\gamma \in \Gamma_p}$ is arbitrary, so ${\{\xi^i\}}$ can be arbitrary real values such that ${<[\gamma, \cdot>]}$ is all of the linear mappings on ${T_p^*}$. The ${[\gamma]}$ forms a dual space of ${T_p^*}$, called the tangent space of ${M}$ at ${p}$.
