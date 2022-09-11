@@ -24,13 +24,6 @@ $$
 By introducting addition and scalar multipication into ${\mathscr{F}_p}$, it becomes a linear space, so for ${[f]}$ and ${[g]} \in\mathscr{F}_p$, ${\alpha} \in \mathbb{R}$, define
 
 $$
-\left\{ \begin{case}
-[f] + [g] = [f + g],\\
-\alpha [f] = [\alpha f].\\
-\end{case} \right.
-$$
-
-$$
 \begin{cases}
 [f] + [g] = [f + g],\\ 
 \alpha [f] = [\alpha f].
