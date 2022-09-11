@@ -43,8 +43,8 @@ $$
 Obviously, the ${\ll \ , \ \gg}$  is linear with respect to the second variable. For arbitrary ${\gamma \in \Gamma_p}$, ${[f]}$ and ${[g] \in \mathscr F_p}$, have
 
 $$
-\begin{align} \ll \gamma, [f] + [g]\gg &= \ll \gamma, [f]\gg + \ll \gamma, [g]\gg,\\
-\ll \gamma, \alpha [f]\gg &= \alpha \ll \gamma, [f]\gg.  \end{align}
+\begin{aligned} \ll \gamma, [f] + [g]\gg &= \ll \gamma, [f]\gg + \ll \gamma, [g]\gg,\\
+\ll \gamma, \alpha [f]\gg &= \alpha \ll \gamma, [f]\gg.  \end{aligned}
 $$
 
 Thus, Let ${\ll\gamma, [f]\gg=0}$ can get a linear subspace of ${\mathscr{F}_p}$ as
@@ -119,7 +119,9 @@ $$
 for an arbitrary ${\gamma(t)}$,
 
 $$
-\begin{aligned} \ll \gamma, [f]\gg &= \left. \dfrac{d(f \circ \gamma)}{dt} \right|_{t=0} \\ &= \sum \limits_k^s(\frac{\partial F}{\partial f^k})_{(f^1(p), f^2(p), ..., f^s(p))} \cdot \left.  \dfrac{d(f^k \circ \gamma(t))}{dt} \right|_{t=0} \\ &= \sum \limits_k^s a_k \cdot \ll \gamma, [f^k] \gg. 
+\begin{aligned} \ll \gamma, [f]\gg &= \left. \dfrac{d(f \circ \gamma)}{dt} \right|_{t=0} \\
+&= \sum \limits_k^s(\frac{\partial F}{\partial f^k})_{(f^1(p), f^2(p), ..., f^s(p))} \cdot \left.  \dfrac{d(f^k \circ \gamma(t))}{dt} \right|_{t=0} \\
+&= \sum \limits_k^s a_k \cdot \ll \gamma, [f^k] \gg. 
 \end{aligned}
 $$
 
@@ -140,7 +142,9 @@ $$
 Corollary 1. For any ${[f]}$, ${[g] \in C_p^\infty}$,  ${a \in \mathbb R}$, have
 
 $$
-\begin{aligned} &d(f+g)_p=(df)_p + (dg)_p, \\ &d(af)_p=a \cdot(df)_p, \\ &d(fg)_p=g\cdot(df)_p + f\cdot (dg)_p. \end{aligned}
+\begin{aligned} &d(f+g)_p=(df)_p + (dg)_p, \\
+&d(af)_p=a \cdot(df)_p, \\
+&d(fg)_p=g\cdot(df)_p + f\cdot (dg)_p. \end{aligned}
 $$
 
 Proof. …
@@ -156,13 +160,16 @@ $$
 as Theorem 2 have
 
 $$
-\begin{aligned}f &= F(f^1(p), f^2(p), ...,f^m(p)) \\ &= F(u^1(p), u^2(p), ...,u^m(p)) \end{aligned}
+\begin{aligned}f &= F(f^1(p), f^2(p), ...,f^m(p)) \\
+&= F(u^1(p), u^2(p), ...,u^m(p)) \end{aligned}
 $$
 
 then
 
 $$
-\begin{aligned}(df)_p &= \sum \limits_i^s (\frac{\partial F}{\partial u^i})_{(u^1(p), u^2(p), ..., u^s(p))} \cdot(du^i)_p \\ &= \sum \limits_i^s a_i (du^i)_p \\ where \quad &a_i = (\frac{\partial F}{\partial u^i})_{(u^1(p), u^2(p), ..., u^s(p))} \end{aligned}
+\begin{aligned}(df)_p &= \sum \limits_i^s (\frac{\partial F}{\partial u^i})_{(u^1(p), u^2(p), ..., u^s(p))} \cdot(du^i)_p \\
+&= \sum \limits_i^s a_i (du^i)_p \\
+where \quad &a_i = (\frac{\partial F}{\partial u^i})_{(u^1(p), u^2(p), ..., u^s(p))} \end{aligned}
 $$
 
 **Thus, any ${(df)_p}$ is a linear combination of the ${(du^k)_p}$, ${1 \le \ k \ \le \ m}$, if there have real values ${a_k}$, such that**
@@ -196,7 +203,8 @@ $$
 so
 
 $$
-\begin{aligned} \ll \lambda_k(t), \sum \limits_i^s a_i [u^i] \gg \ &= \ \sum \limits_i^s a_i \left. \dfrac{d(u^i \circ \lambda_k(t))}{dt}\right|_{t=0} \\&= \sum \limits_i^s a_i \delta_k^i = 0.\end{aligned}
+\begin{aligned} \ll \lambda_k(t), \sum \limits_i^s a_i [u^i] \gg \ &= \ \sum \limits_i^s a_i \left. \dfrac{d(u^i \circ \lambda_k(t))}{dt}\right|_{t=0} \\
+&= \sum \limits_i^s a_i \delta_k^i = 0.\end{aligned}
 $$
 
 hence  ${\{a_k=0,\ 1 \ \le k \ \le \ m\}}$,  ${\{(du^i)_p,\ 1 \ \le i \ \le \ m\}}$ is linearly independent. Therefore it forms a basis for ${T_p^*(M)}$ , called the natural basis of ${T_p^*(M)}$  with respect to the local coordinate system {u^i}. Thus ${T_p^*(M)}$ is an m-dimensional linear space.
@@ -232,7 +240,10 @@ ${\{[\gamma]| \gamma \in \Gamma_p\}}$ is the dual space of cotangent space ${T_p
 Under the local coordinates ${u^i}$, suppose ${\gamma \in \Gamma_p}$, is given by the functions ${u^i = u^i(t) = (\varphi_U \circ \gamma(t))^i, 1 \le \ i \ \le m}$. From Theorem 1, ${f \circ \varphi^{-1}(u^1, u^2, …,u^m) = F(u^1, u^2, …,u^m)}$ , then can derive that
 
 $$
-\begin{aligned} <[\gamma], (df)_p > \ &= \ \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i})_{\varphi_U(p)} \cdot \left .\dfrac{d (\varphi_U \circ \gamma(t))^i}{dt} \right|_{t=0}\\ &= \ \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i})_{\varphi_U(p)} \cdot (\dfrac{d u^i(t)}{dt})_{t=0} \\ &= \ \sum \limits_i^m a_i \xi^i \end{aligned} \\ where \quad a_i= \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i})_{\varphi_U(p)}, \quad (\dfrac{d u^i(t)}{dt})_{t=0}
+\begin{aligned} <[\gamma], (df)_p > \ &= \ \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i})_{\varphi_U(p)} \cdot \left .\dfrac{d (\varphi_U \circ \gamma(t))^i}{dt} \right|_{t=0}\\
+&= \ \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i})_{\varphi_U(p)} \cdot (\dfrac{d u^i(t)}{dt})_{t=0} \\
+&= \ \sum \limits_i^m a_i \xi^i \end{aligned} \\
+where \quad a_i= \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i})_{\varphi_U(p)}, \quad (\dfrac{d u^i(t)}{dt})_{t=0}
 $$
 
 Due to ${\gamma \in \Gamma_p}$ is arbitrary, so ${\{\xi^i\}}$ can be arbitrary real values such that ${<[\gamma, \cdot>]}$ is all of the linear mappings on ${T_p^*}$. The ${[\gamma]}$ forms a dual space of ${T_p^*}$, called the tangent space of ${M}$ at ${p}$.
@@ -274,7 +285,10 @@ so ${\{[\lambda_k]| 1 \le \ k \ \le m\}}$ can be viewed as the dual baisis of ${
 Furthermore,
 
 $$
-\color{red} \begin{aligned}<[\lambda_k], (df)_p > \ &= \ <[\lambda_k],\sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^i})_p \cdot (du^i)_p> \\ &= \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^i})_p \ \cdot<[\lambda_k],(du^i)_p> \\ &= \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^i})_p \cdot \delta_k^i \\ &= (\frac{\partial f \circ \varphi_U^{-1} }{\partial u^k})_p \end{aligned}
+\color{red} \begin{aligned}<[\lambda_k], (df)_p > \ &= \ <[\lambda_k],\sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^i})_p \cdot (du^i)_p> \\
+&= \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^i})_p \ \cdot<[\lambda_k],(du^i)_p> \\
+&= \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1} }{\partial u^i})_p \cdot \delta_k^i \\
+&= (\frac{\partial f \circ \varphi_U^{-1} }{\partial u^k})_p \end{aligned}
 $$
 
 Thus, the ${[\lambda_k]}$ are the partial differential operators ${(\partial/\partial u^k)}$ on the function germs ${[f]}$. Then
