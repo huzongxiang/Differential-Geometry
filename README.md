@@ -244,7 +244,9 @@ $$
 &= \ \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i})_{\varphi_U(p)} \cdot (\dfrac{d u^i(t)}{dt})_{t=0} \\
 &= \ \sum \limits_i^m a_i \xi^i \end{aligned}
 $$
+
 where
+
 $$
 a_i= \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i})_{\varphi_U(p)}, \quad (\dfrac{d u^i(t)}{dt})_{t=0}
 $$
