@@ -243,7 +243,7 @@ ${\{[\gamma]| \gamma \in \Gamma_p\}}$ is the dual space of cotangent space ${T_p
 Under the local coordinates ${u^i}$, suppose ${\gamma \in \Gamma_p}$, is given by the functions ${u^i = u^i(t) = (\varphi_U \circ \gamma(t))^i, 1 \le \ i \ \le m}$. From Theorem 1, ${f \circ \varphi^{-1}(u^1, u^2, …,u^m) = F(u^1, u^2, …,u^m)}$ , then can derive that
 
 $$
-\begin{aligned} <[\gamma], (df)_p > \ &= \ \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i})_{\varphi_U(p)} \cdot \left .\dfrac{d (\varphi_U \circ \gamma(t))^i}{dt} \right|_{t=0}\\
+\begin{aligned} <[\gamma], (df)_p > \ &= \ \sum \limits_i^m \left(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i}\right) _{\varphi_U(p)} \cdot \left .\dfrac{d (\varphi_U \circ \gamma(t))^i}{dt} \right|_{t=0}\\
 &= \ \sum \limits_i^m \left(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i}\right) _{\varphi_U(p)} \cdot \left(\dfrac{d u^i(t)}{dt}\right) _{t=0} \\
 &= \ \sum \limits_i^m a_i \xi^i \end{aligned}
 $$
