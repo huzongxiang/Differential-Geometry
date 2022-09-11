@@ -190,7 +190,7 @@ u^i \circ \lambda_k(t) = u^i(p) + \delta_k^it,
 $$
 
 $$
-where \quad \delta_k^i =\begin{cases}{lc} 1, \quad i=k, \\0, \quad i \neq k. \end{cases} .
+where \quad \delta_k^i =\begin{cases} 1, \quad i=k, \\0, \quad i \neq k. \end{cases} .
 $$
 
 then
