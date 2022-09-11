@@ -81,7 +81,7 @@ $$
 because ${\gamma (t) \in \Gamma_p}$ is an arbitary curve, so $\Large {\frac{dx^i}{dt} \Large|\normalsize_{t=0}}$ is arbitary real value. For arbitary ${\gamma (t) \in \Gamma_p}$  , a necessary and sufficent condition for ${\ll\gamma, [f]\gg=0}$ is
 
 $$
-\left \frac{\partial F}{\partial x^i} \right| _{\varphi_U(p)} = 0, \quad \quad 1 \le \ i \ \le \ m.
+\left\frac{\partial F}{\partial x^i} \right| _{\varphi_U(p)} = 0, \quad \quad 1 \le \ i \ \le \ m.
 $$
 
 Theorem 1 indicates that subspace ${\mathscr H_p}$ is exactly the linear space of germs of smooth functions whose partial derivatives with respect to local coordinates all vanish at  ${p}$.
