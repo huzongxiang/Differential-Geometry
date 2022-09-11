@@ -17,7 +17,9 @@ Given a differentiable structure on a topological manifold, we can approximate a
 
 Suppose ${p}$ is a fixed point of the m-dimension smooth manifold ${M}$. Let  ${f}$ be a ${C^\infty}$-function ( ${C^\infty}$ is infinitely differentiable) defined in a neighborhood of ${p}$, ${C_p^\infty}$  represents the set of all of these ${f}$ functions at ${p}$. Two functions ${f}$ and ${g}$ usually have different domains but their addition and multiplication are still well-defined if ${p} \in U \bigcap V$, ${U}$ and ${V}$ are domains of ${f}$ and ${g}$, respectively.  If ${f}$ and ${g}$ ${\mathbb\in}$ ${C_p^\infty}$, ${f + g}$ and ${f * g}$ also belong to ${C_p^\infty}$, that is, ${f + g}$ and ${f*g} \in C_p^\infty$. But  ${g|_ {U \bigcap V} = f|_ {U \bigcap V}} = 0$, that the zero is not unique, so ${C_p ^\infty}$ can not be defined as a linear space. If defining an equivalence relation ${f\sim g}$ if and only if existing an open neighborhood ${H}$ of ${p}$ such that ${f|_H=g|_H}$. The ${[f]}$ represents ${f}$’s ${\sim}$ equivalence class in ${C_p^\infty}$, the ${[f]}$ is called the ***function germ*** of the manifold ${M}$ at ${p}$. Let
 
-  ${\mathscr{F}_p=C_p^\infty/\sim=\{[f]|f\in C_p^\infty\}}$.
+$$
+{\mathscr{F}_p=C_p^\infty/\sim=\{[f]|f\in C_p^\infty\}}.
+$$
 
 By introducting addition and scalar multipication into ${\mathscr{F}_p}$, it becomes a linear space, so for ${[f]}$ and ${[g]} \in\mathscr{F}_p$, ${\alpha} \in \mathbb{R}$, define
 
@@ -70,7 +72,10 @@ $$
 $$
 
 $$
-\begin{aligned} \ll \gamma, [f]\gg &= (\left. \dfrac{df \circ \gamma}{dt}) \right|_{t=0} \\ &= \left .\dfrac{d}{dt}F(x^1,x^2,...,x^m)\right|_{t=0}  \\ &= \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i})_{\varphi_U(p)} \cdot \left .\dfrac{d (\varphi_U \circ \gamma(t))^i}{dt} \right|_{t=0} \\ &= \sum\limits_i^m \left. \frac{\partial F}{\partial x^i} \right|_{\varphi_U(p)}\cdot \left.  \frac{dx^i}{dt} \right|_{t=0} \end{aligned}
+\begin{aligned} \ll \gamma, [f]\gg &= (\left. \dfrac{df \circ \gamma}{dt}) \right|_{t=0} \\
+&= \left .\dfrac{d}{dt}F(x^1,x^2,...,x^m)\right|_{t=0}  \\
+&= \sum \limits_i^m(\frac{\partial f \circ \varphi_U^{-1}}{\partial u^i})_{\varphi_U(p)} \cdot \left .\dfrac{d (\varphi_U \circ \gamma(t))^i}{dt} \right|_{t=0} \\
+&= \sum\limits_i^m \left. \frac{\partial F}{\partial x^i} \right|_{\varphi_U(p)}\cdot \left.  \frac{dx^i}{dt} \right|_{t=0} \end{aligned}
 $$
 
 because ${\gamma (t) \in \Gamma_p}$ is an arbitary curve, so $\Large {\frac{dx^i}{dt} \Large|\normalsize_{t=0}}$ is arbitary real value. For arbitary ${\gamma (t) \in \Gamma_p}$  , a necessary and sufficent condition for ${\ll\gamma, [f]\gg=0}$ is
