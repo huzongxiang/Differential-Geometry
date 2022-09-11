@@ -90,7 +90,7 @@ Theorem 1 indicates that subspace ${\mathscr H_p}$ is exactly the linear space o
 
 ### Definition
 
-The quotient space ${\mathscr F_p/\mathscr H_p}$  is called ***Cotangent Space*** of ${M}$ at ${p}$, denoted by ${T_p^*(M)}$ or ${T_p^*}$. The ${\mathscr H_p}$-equivalence class of the function germ ${[f]}$ is denoted by ${[\widetilde{f\ }]}$ or ${(df)_p}$, and is called a cotangent vector on ${M}$ at ${p}$.
+The quotient space ${\mathscr F_p/\mathscr H_p}$  is called ***Cotangent Space*** of ${M}$ at ${p}$, denoted by ${T_p^* (M)}$ or ${T _p^*}$. The ${\mathscr H_p}$-equivalence class of the function germ ${[f]}$ is denoted by ${[\widetilde{f\ }]}$ or ${(df)_p}$, and is called a cotangent vector on ${M}$ at ${p}$.
 
 ${T_p^*(M)}$ is a linear space. It has a linear structure induced from the linear space ${\mathscr F_p}$, i.e. for ${[f]}$ and ${[g] \in \mathscr F_p}$,  we have
 
