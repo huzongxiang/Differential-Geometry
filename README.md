@@ -174,7 +174,7 @@ $$
 **Thus, any ${(df)_p}$ is a linear combination of the ${(du^k)_p}$, ${1 \le \ k \ \le \ m}$, if there have real values ${a_k}$, such that**
 
 $$
-\sum \limits_i^s a_i (du^i)_p = 0 \\
+\sum \limits_i^s a_i (du^i)_p = 0 \\ 
 i.e. \quad \sum \limits_i^s a_i [u^i] \in \mathscr H_p
 $$
 
@@ -194,7 +194,7 @@ where
 
 $$
 \quad \delta_k^i =\begin{cases} 1, \quad i=k, \\ 
-0, \quad i \neq k. \end{cases} .
+0, \quad i \neq k. \end{cases}
 $$
 
 then
