@@ -259,7 +259,7 @@ Due to ${\gamma \in \Gamma_p}$ is arbitrary, so ${\{\xi^i\}}$ can be arbitrary r
 A necessary and sufficient condition for ${[\gamma] = [\gamma']}$ for ${u^i(t) = u'^i(t)}$ is
 
 $$
-(\frac{d u^i(t)}{dt})_{t=0} = (\frac{d u'^i(t)}{dt})_{t=0}
+(\dfrac{d u^i(t)}{dt})_{t=0} = (\dfrac{d u'^i(t)}{dt})_{t=0}
 $$
 
 Thus, the geometric meaning of tangent vectors means that these two parametrized curves have the same tangent vector at the point ${p}$.
