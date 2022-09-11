@@ -302,7 +302,7 @@ $$
 Thus, the ${[\lambda_k]}$ are the partial differential operators ${(\partial/\partial u^k)}$ on the function germs ${[f]}$. Then
 
 $$
-<[\lambda_k],(du^i)_p> \ = \ <\left.\frac{\partial}{\partial u^k}\right| _{p}, (du^i)_p> = \delta_k^i. 
+<[\lambda_k],(du^i)_p> \ = \ \left<\left.\frac{\partial}{\partial u^k}\right| _{p}, (du^i)_p \right> = \delta_k^i. 
 $$
 
 We call the basis of  ${\{ (\partial/\partial u^i)_p, 1 \le \ i \ \le m\}}$ in ${T_p}$ the Natural Basis of the tangent space under the local coordinate system ${u^i}$.
