@@ -174,10 +174,14 @@ $$
 **Thus, any ${(df)_p}$ is a linear combination of the ${(du^k)_p}$, ${1 \le \ k \ \le \ m}$, if there have real values ${a_k}$, such that**
 
 $$
-\sum \limits_i^s a_i (du^i)_p = 0 \\ 
-i.e. \quad \sum \limits_i^s a_i [u^i] \in \mathscr H_p
+\sum \limits_i^s a_i (du^i)_p = 0  
 $$
 
+i.e.
+
+$$
+\sum \limits_i^s a_i [u^i] \in \mathscr H_p
+$$
 so for any ${\gamma_(t) \in \Gamma_p}$, have
 
 $$
