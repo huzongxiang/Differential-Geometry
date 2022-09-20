@@ -356,7 +356,7 @@ $$
 
 Obviously this is a linear map, called the differential of the map ${F}$.
 
-Consider next the adjoint of ${F^*}$*,* namely the **tangent map** ${F _*: T _p \rightarrow T _q}$ defined for ${X \in T _p^*}$, ${\alpha \in T _p}$ as follows:
+Consider next the adjoint of ${F^*}$, namely the tangent map ${F _*: T _p \rightarrow T _q}$ defined for ${X \in T _p^*}$, ${\alpha \in T _p}$ as follows:
 
 $$
 <F _* X, \ \alpha> \ = \ <X, \ F^* \alpha>
