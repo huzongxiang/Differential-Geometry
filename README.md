@@ -348,7 +348,7 @@ $$
 \dfrac{d u^{'j}}{d u^i} = \frac{\partial (\varphi _U^{'} \circ \varphi _U^{-1})^j}{\partial u^i}
 $$
 
-Smooth maps between smooth manifolds induce linear maps between tangent spaces and between cotangent spaces. Suppose ${F : M \rightarrow N}$ is a smooth map, ${p \in  M}$, and ${q = F(p)}$. Define the map ${F^*: T _q^* \rightarrow T _p^\ast}$ as follows:
+Smooth maps between smooth manifolds induce linear maps between tangent spaces and between cotangent spaces. Suppose ${F : M \rightarrow N}$ is a smooth map, ${p \in  M}$, and ${q = F(p)}$. Define the map ${F^\ast: T _q^\ast \rightarrow T _p^\ast}$ as follows:
 
 $$
 F^\ast (df) = d (d \circ F), \quad \quad df \in T _q^\ast
