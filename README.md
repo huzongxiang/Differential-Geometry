@@ -359,7 +359,7 @@ Obviously this is a linear map, called the differential of the map ${F}$.
 Consider next the adjoint of ${F^*}$, namely the tangent map ${F _*: T _p \rightarrow T _q}$ defined for ${X \in T _p^*}$, ${\alpha \in T _p}$ as follows:
 
 $$
-<F _* X, \ \alpha> \ = \ <X, \ F^* \alpha>
+<F _* X,\alpha>=<X,F^* \alpha>
 $$
 
 Suppose ${u ^i}$ and ${v ^ \alpha}$ are local coordinates near ${p}$ and ${q}$, respectively. Then
@@ -371,7 +371,8 @@ $$
 Thus the action of ${F^*}$ on the natural basis ${\{dv ^\alpha, 1 \le \alpha \le n\}}$ is given by
 
 $$
-\begin{aligned} F^* (dv^\alpha) &= d(v^\alpha \circ F) \\ &= \sum \limits_{i=1}^m \left(\frac{\partial F^\alpha}{\partial u^i} \right) _p \cdot du^i \end{aligned}
+\begin{aligned} F^* (dv^\alpha) &= d(v^\alpha \circ F) \\ 
+&= \sum \limits_{i=1}^m \left(\frac{\partial F^\alpha}{\partial u^i} \right) _p \cdot du^i \end{aligned}
 $$
 
 The matrix representation of ${F^*}$ in the natural bases ${dv^\alpha}$ and ${du^i}$ is exactly the Jacobian matrix ${(dF^\alpha/du^i)}$.
