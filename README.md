@@ -90,9 +90,9 @@ Theorem 1 indicates that subspace ${\mathscr H_p}$ is exactly the linear space o
 
 ### Definition
 
-The quotient space ${\mathscr F_p/\mathscr H_p}$  is called ***Cotangent Space*** of ${M}$ at ${p}$, denoted by ${T_p^* (M)}$ or ${T _p^*}$. The ${\mathscr H_p}$-equivalence class of the function germ ${[f]}$ is denoted by ${[\widetilde{f\ }]}$ or ${(df)_p}$, and is called a cotangent vector on ${M}$ at ${p}$.
+The quotient space ${\mathscr F_p/\mathscr H_p}$  is called ***Cotangent Space*** of ${M}$ at ${p}$, denoted by ${T_p^\ast (M)}$ or ${T _p^\ast}$. The ${\mathscr H_p}$-equivalence class of the function germ ${[f]}$ is denoted by ${[\widetilde{f\ }]}$ or ${(df)_p}$, and is called a cotangent vector on ${M}$ at ${p}$.
 
-${T_p^*(M)}$ is a linear space. It has a linear structure induced from the linear space ${\mathscr F_p}$, i.e. for ${[f]}$ and ${[g] \in \mathscr F_p}$,  we have
+${T_p^\ast (M)}$ is a linear space. It has a linear structure induced from the linear space ${\mathscr F_p}$, i.e. for ${[f]}$ and ${[g] \in \mathscr F_p}$,  we have
 
 $$
 \begin{cases}
@@ -148,7 +148,7 @@ $$
 
 Proof. …
 
-Corollary 2. ${dim (T_p^*)=m}$.
+Corollary 2. ${dim (T_p^\ast)=m}$.
 
 Proof. Choose an admissible coordinate chart ${(U, \varphi_U)}$, and define local coordinates ${u^i}$ by
 
@@ -214,7 +214,7 @@ $$
 &= \sum \limits_i^s a_i \delta_k^i = 0.\end{aligned}
 $$
 
-hence  ${\{a_k=0,\ 1 \ \le k \ \le \ m\}}$,  ${\{(du^i)_p,\ 1 \ \le i \ \le \ m\}}$ is linearly independent. Therefore it forms a basis for ${T_p^* (M)}$ , called the natural basis of ${T_p^* (M)}$  with respect to the local coordinate system ${u^i}$. Thus ${T_p^* (M)}$ is an m-dimensional linear space.
+hence  ${\{a_k=0,\ 1 \ \le k \ \le \ m\}}$,  ${\{(du^i)_p,\ 1 \ \le i \ \le \ m\}}$ is linearly independent. Therefore it forms a basis for ${T_p^\ast (M)}$ , called the natural basis of ${T_p^* (M)}$  with respect to the local coordinate system ${u^i}$. Thus ${T_p^* (M)}$ is an m-dimensional linear space.
 
 ---
 
@@ -227,13 +227,13 @@ hence  ${\{a_k=0,\ 1 \ \le k \ \le \ m\}}$,  ${\{(du^i)_p,\ 1 \ \le i \ \le \ m\
 ${[f] - [g] \in \mathscr H_p}$ if and only if ${\ll \gamma, [f] \gg = \ll \gamma, [g] \gg}$ for any ${\gamma \in \Gamma_p}$, so can define
 
 $$
-\ll \gamma, (df)_p \gg \ = \ \ll \gamma, [f] \gg, \quad \gamma \in \Gamma_p, \quad (df)_p \in T_p^*.
+\ll \gamma, (df)_p \gg \ = \ \ll \gamma, [f] \gg, \quad \gamma \in \Gamma_p, \quad (df)_p \in T_p^\ast.
 $$
 
 The same problem as linearization of the space of ${f}$  that zero is not unique when linearizing the space of ${\gamma}$, so can define an equivalence relation ${\sim}$ in ${\Gamma_p}$ as follow,
 
 $$
-\ll \gamma, (df)_p \gg \ = \ \ll \gamma', (df)_p \gg, \quad \gamma, \gamma' \in \Gamma_p, \quad \forall(df)_p \in T_p^*.
+\ll \gamma, (df)_p \gg \ = \ \ll \gamma', (df)_p \gg, \quad \gamma, \gamma' \in \Gamma_p, \quad \forall(df)_p \in T_p^\ast.
 $$
 
 Denote the equivalence class of ${\gamma}$ as ${[\gamma]}$, so define
@@ -271,7 +271,7 @@ Thus, the geometric meaning of tangent vectors means that these two parametrized
 So far,
 
 $$
- \ll X, (df)_p \gg \quad X=[\gamma] \in T_p, \quad (df)_p \in T_p^*.
+ \ll X, (df)_p \gg \quad X=[\gamma] \in T_p, \quad (df)_p \in T_p^\ast.
 $$
 
 is a bilinear mapping of both ${T_p}$ and ${T_p^*}$.
@@ -324,7 +324,7 @@ the ${\{\xi^i, 1 \le \ i \ \le m\}}$ are componets of the tangent vector ${[\gam
 
 ## *T**angent map***
 
-Under local coordinates ${u^i}$, a tangent vector ${X=[\gamma] \in T _p}$ and a cotangent vector ${a=df \in T _p^*}$ have linear representations in terms of natural bases:
+Under local coordinates ${u^i}$, a tangent vector ${X=[\gamma] \in T _p}$ and a cotangent vector ${a=df \in T _p^\ast}$ have linear representations in terms of natural bases:
 
 $$
 X = \sum \limits_i^m \xi^i \frac{\partial}{\partial u^i}, \quad a = \sum \limits_i^s a_i du^i
@@ -348,18 +348,18 @@ $$
 \dfrac{d u^{'j}}{d u^i} = \frac{\partial (\varphi _U^{'} \circ \varphi _U^{-1})^j}{\partial u^i}
 $$
 
-Smooth maps between smooth manifolds induce linear maps between tangent spaces and between cotangent spaces. Suppose ${F : M \rightarrow N}$ is a smooth map, ${p \in  M}$, and ${q = F(p)}$. Define the map ${F^*: T _q^* \rightarrow T _p^*}$ as follows:
+Smooth maps between smooth manifolds induce linear maps between tangent spaces and between cotangent spaces. Suppose ${F : M \rightarrow N}$ is a smooth map, ${p \in  M}$, and ${q = F(p)}$. Define the map ${F^*: T _q^* \rightarrow T _p^\ast}$ as follows:
 
 $$
-F^* (df) = d (d \circ F), \quad \quad df \in T _q^*
+F^\ast (df) = d (d \circ F), \quad \quad df \in T _q^\ast
 $$
 
 Obviously this is a linear map, called the differential of the map ${F}$.
 
-Consider next the adjoint of ${F^*}$, namely the tangent map ${F _*: T _p \rightarrow T _q}$ defined for ${X \in T _p^*}$, ${\alpha \in T _p}$ as follows:
+Consider next the adjoint of ${F^\ast}$, namely the tangent map ${F _\ast: T _p \rightarrow T _q}$ defined for ${X \in T _p^\ast}$, ${\alpha \in T _p}$ as follows:
 
 $$
-<F _{\ast} X,\alpha> = <X, F^{\ast} \alpha>
+<F _\ast X,\alpha> = <X, F^\ast \alpha>
 $$
 
 Suppose ${u ^i}$ and ${v ^ \alpha}$ are local coordinates near ${p}$ and ${q}$, respectively. Then
@@ -375,10 +375,10 @@ $$
 &= \sum \limits_{i=1}^m \left(\frac{\partial F^\alpha}{\partial u^i} \right) _p \cdot du^i \end{aligned}
 $$
 
-The matrix representation of ${F^*}$ in the natural bases ${dv^\alpha}$ and ${du^i}$ is exactly the Jacobian matrix ${(dF^\alpha/du^i)}$.
+The matrix representation of ${F^\ast}$ in the natural bases ${dv^\alpha}$ and ${du^i}$ is exactly the Jacobian matrix ${(dF^\alpha/du^i)}$.
 
 $$
-\begin{aligned} <F _* \left(\frac{\partial}{\partial u^i} \right), (dv^\alpha)> \ &= \ <\frac{\partial}{\partial u^i},\  F^*(dv^\alpha)> \\ 
+\begin{aligned} <F _\ast \left(\frac{\partial}{\partial u^i} \right), (dv^\alpha)> \ &= \ <\frac{\partial}{\partial u^i},\  F^\ast (dv^\alpha)> \\ 
 &= <\frac{\partial}{\partial u^i},\  \sum \limits _{j=1}^m \left(\frac{\partial F^\alpha}{\partial u^j} \right) _p \cdot du^j> \\ 
 &= \sum \limits _{j=1}^m <\frac{\partial}{\partial u^i},\ du^j> \cdot \left(\frac{\partial F^\alpha}{\partial u^j} \right) _p \\ 
 &= \sum \limits _{j=1}^m \delta _i^j \cdot \left(\frac{\partial F^\alpha}{\partial u^j} \right) _p \\ 
@@ -391,7 +391,7 @@ $$
 i.e.
 
 $$
-F _* \left(\frac{\partial}{\partial u^i} \right) =  \sum \limits _{\beta=1}^n \left(\frac{\partial F^\beta}{\partial u^i} \right) _p \cdot \frac{\partial}{\partial v^\beta}
+F _\ast \left(\frac{\partial}{\partial u^i} \right) =  \sum \limits _{\beta=1}^n \left(\frac{\partial F^\beta}{\partial u^i} \right) _p \cdot \frac{\partial}{\partial v^\beta}
 $$
 
-Hence the matrix representation of the tangent map ${F}$, under the natural bases $*{\{\partial / \partial u^i\}}$* and ${\{\partial / \partial v^\alpha\}}$ is still the Jacobian matrix ${(\partial F^\alpha / \partial u^i)}.$
+Hence the matrix representation of the tangent map ${F}$, under the natural bases ${\{\partial / \partial u^i\}}$ and ${\{\partial / \partial v^\alpha\}}$ is still the Jacobian matrix ${(\partial F^\alpha / \partial u^i)}.$
