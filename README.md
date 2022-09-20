@@ -394,7 +394,7 @@ $$
 i.e.
 
 $$
-F _* \left(\frac{\partial}{\partial u^i} \right) =  \sum \limits_{\beta=1}^n \left(\frac{\partial F^\beta}{\partial u^i} \right) _p \cdot \frac{\partial}{\partial v^\beta}
+F _* \left(\frac{\partial}{\partial u^i} \right) =  \sum \limits _{\beta=1}^n \left(\frac{\partial F^\beta}{\partial u^i} \right) _p \cdot \frac{\partial}{\partial v^\beta}
 $$
 
 Hence the matrix representation of the tangent map ${F}$*,* under the natural bases $*{\{\partial / \partial u^i\}}$* and $*{\{\partial / \partial v^\alpha\}}$* is still the Jacobian matrix ${(\partial F^\alpha / \partial u^i)}.$
