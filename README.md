@@ -377,7 +377,14 @@ $$
 The matrix representation of ${F^*}$ in the natural bases ${dv^\alpha}$ and ${du^i}$ is exactly the Jacobian matrix ${(dF^\alpha/du^i)}$.
 
 $$
-\begin{aligned} <F _* \left(\frac{\partial}{\partial u^i} \right), (dv^\alpha)> \ &= \ <\frac{\partial}{\partial u^i},\  F^*(dv^\alpha)> \\ &= <\frac{\partial}{\partial u^i},\  \sum \limits_{j=1}^m \left(\frac{\partial F^\alpha}{\partial u^j} \right) _p \cdot du^j> \\ &= \sum \limits_{j=1}^m <\frac{\partial}{\partial u^i},\     du^j> \cdot \left(\frac{\partial F^\alpha}{\partial u^j} \right) _p \\ &= \sum \limits_{j=1}^m \delta _i^j \cdot \left(\frac{\partial F^\alpha}{\partial u^j} \right) _p \\ &= \left(\frac{\partial F^\alpha}{\partial u^i} \right) _p \\ &= <\sum \limits_{\beta=1}^n \left(\frac{\partial F^\beta}{\partial u^i} \right) _p \cdot \frac{\partial}{\partial v^\beta},\ dv^\alpha> \\ &= \sum \limits_{\beta=1}^n \left(\frac{\partial F^\beta}{\partial u^i} \right) _p \cdot <\frac{\partial}{\partial v^\beta},\ dv^\alpha> \\ &= \sum \limits_{\beta=1}^n \left(\frac{\partial F^\beta}{\partial u^i} \right) _p \cdot \delta _\beta^\alpha \end{aligned}
+\begin{aligned} <F _* \left(\frac{\partial}{\partial u^i} \right), (dv^\alpha)> \ &= \ <\frac{\partial}{\partial u^i},\  F^*(dv^\alpha)> \\ 
+&= <\frac{\partial}{\partial u^i},\  \sum \limits _{j=1}^m \left(\frac{\partial F^\alpha}{\partial u^j} \right) _p \cdot du^j> \\ 
+&= \sum \limits _{j=1}^m <\frac{\partial}{\partial u^i},\ du^j> \cdot \left(\frac{\partial F^\alpha}{\partial u^j} \right) _p \\ 
+&= \sum \limits _{j=1}^m \delta _i^j \cdot \left(\frac{\partial F^\alpha}{\partial u^j} \right) _p \\ 
+&= \left(\frac{\partial F^\alpha}{\partial u^i} \right) _p \\ 
+&= <\sum \limits _{\beta=1}^n \left(\frac{\partial F^\beta}{\partial u^i} \right) _p \cdot \frac{\partial}{\partial v^\beta},\ dv^\alpha> \\ 
+&= \sum \limits _{\beta=1}^n \left(\frac{\partial F^\beta}{\partial u^i} \right) _p \cdot <\frac{\partial}{\partial v^\beta},\ dv^\alpha> \\ 
+&= \sum \limits _{\beta=1}^n \left(\frac{\partial F^\beta}{\partial u^i} \right) _p \cdot \delta _\beta^\alpha \end{aligned}
 $$
 
 i.e.
