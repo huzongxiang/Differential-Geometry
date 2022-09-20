@@ -359,7 +359,7 @@ Obviously this is a linear map, called the differential of the map ${F}$.
 Consider next the adjoint of ${F^\ast}$, namely the tangent map ${F _\ast: T _p \rightarrow T _q}$ defined for ${X \in T _p^\ast}$, ${\alpha \in T _p}$ as follows:
 
 $$
-<F _\ast X,\alpha> = <X, F^\ast \alpha>
+<F _\ast X,\alpha> 
 $$
 
 Suppose ${u ^i}$ and ${v ^ \alpha}$ are local coordinates near ${p}$ and ${q}$, respectively. Then
@@ -378,7 +378,7 @@ $$
 The matrix representation of ${F^\ast}$ in the natural bases ${dv^\alpha}$ and ${du^i}$ is exactly the Jacobian matrix ${(dF^\alpha/du^i)}$.
 
 $$
-\begin{aligned} <F _\ast \left(\frac{\partial}{\partial u^i} \right), (dv^\alpha)> \ &= \ <\frac{\partial}{\partial u^i},\  F^\ast (dv^\alpha)> \\ 
+\begin{aligned} <F _\ast \left( \frac{\partial}{\partial u^i} \right), (dv^\alpha)> \ &= \ <\frac{\partial}{\partial u^i},\  F^\ast (dv^\alpha)> \\ 
 &= <\frac{\partial}{\partial u^i},\  \sum \limits _{j=1}^m \left(\frac{\partial F^\alpha}{\partial u^j} \right) _p \cdot du^j> \\ 
 &= \sum \limits _{j=1}^m <\frac{\partial}{\partial u^i},\ du^j> \cdot \left(\frac{\partial F^\alpha}{\partial u^j} \right) _p \\ 
 &= \sum \limits _{j=1}^m \delta _i^j \cdot \left(\frac{\partial F^\alpha}{\partial u^j} \right) _p \\ 
