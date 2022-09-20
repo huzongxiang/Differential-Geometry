@@ -322,11 +322,9 @@ the ${\{\xi^i, 1 \le \ i \ \le m\}}$ are componets of the tangent vector ${[\gam
 
 ---
 
----
-
 ## *T**angent map***
 
-Under local coordinates *ui,* a tangent vector X = [r] E ***Tp*** and a cotangent vector ***a*** = *df* E ***T:*** have linear representations in terms of natural bases:
+Under local coordinates ${u^i}$, a tangent vector ${X=[\gamma] \in T _p}$ and a cotangent vector ${a=df \in T _p^*}$ have linear representations in terms of natural bases:
 
 $$
 X = \sum \limits_i^m \xi^i \frac{\partial}{\partial u^i}, \quad a = \sum \limits_i^s a_i du^i
@@ -338,7 +336,7 @@ $$
 \xi^i = \frac{\partial (u^i \circ \gamma)}{\partial u^i}, \quad a _i = \dfrac{df}{du^i}
 $$
 
-Under another local coordinate system ${u^{'i}}$, if the components of ${X}$ and ${a}$ with respect to the corresponding natural bases are ${\xi^'}$ and ${a^'}$, respectively, then they satisfy the following transformation rules:
+Under another local coordinate system ${u^{'i}}$, if the components of ${X}$ and ${a}$ with respect to the corresponding natural bases are ${\xi^{'}}$ and ${a^{'}}$, respectively, then they satisfy the following transformation rules:
 
 $$
 \xi^{'j} = \sum \limits_i^m \xi ^i \dfrac{d u^{'j}}{d u^i}, \quad a _i = \sum \limits_i^m a _j^{'} \cdot \dfrac{du^{'j}}{du^i}
@@ -353,18 +351,18 @@ $$
 Smooth maps between smooth manifolds induce linear maps between tangent spaces and between cotangent spaces. Suppose ${F : M \rightarrow N}$ is a smooth map, ${p \in  M}$, and ${q = F(p)}$. Define the map ${F^*: T _q^* \rightarrow T _p^*}$ as follows:
 
 $$
-F (df) = d (d \circ F), \quad \quad df \in T _q^*
+F^* (df) = d (d \circ F), \quad \quad df \in T _q^*
 $$
 
-Obviously this is a linear map, called the **differential** of the map ${F}$.
+Obviously this is a linear map, called the differential of the map ${F}$.
 
-Consider next the adjoint of ${F^*}$, namely the tangent map ${F _*: T _p \rightarrow T _q}$ defined for ${X \in T _p^*}$, ${\alpha \in T _p}$ as follows:
+Consider next the adjoint of ${F^*}$*,* namely the **tangent map** ${F _*: T _p \rightarrow T _q}$ defined for ${X \in T _p^*}$, ${\alpha \in T _p}$ as follows:
 
 $$
 <F _* X, \ \alpha> \ = \ <X, \ F^* \alpha>
 $$
 
-Suppose ${u ^i}$ and ${v ^ \alpha}$ are local coordinates near ${p}$ and ${q}$, respectively. Then
+Suppose ${u ^i}$ **and ${v ^ \alpha}$ are local coordinates near ${p}$ and ${q}$, respectively. Then
 
 $$
 v^\alpha = F^\alpha(u ^1, u^2, \cdots,u^m) \quad \quad 1 \le \ \alpha \ \le n
@@ -373,21 +371,13 @@ $$
 Thus the action of ${F^*}$ on the natural basis $*{\{dv ^\alpha, 1 \le \alpha \le n\}}$* is given by
 
 $$
-\begin{aligned} F (dv^\alpha) &= d(v^\alpha \circ F) \\ 
-&= \sum \limits_{i=1}^m \left(\frac{\partial F^\alpha}{\partial u^i} \right) _p \cdot du^i \end{aligned}
+\begin{aligned} F^* (dv^\alpha) &= d(v^\alpha \circ F) \\ &= \sum \limits_{i=1}^m \left(\frac{\partial F^\alpha}{\partial u^i} \right) _p \cdot du^i \end{aligned}
 $$
 
-The matrix representation of ${F^\*}$ in the natural bases ${dv^\alpha}$ and ${du^i}$ is exactly the Jacobian matrix ${(dF^\alpha/du^i)}$.
+The matrix representation of ${F^*}$ in the natural bases ${dv^\alpha}$ and ${du^i}$ is exactly the Jacobian matrix ${(dF^\alpha/du^i)}$.
 
 $$
-\begin{aligned} <F _* \left( \frac{\partial}{\partial u^i} \right), (dv^\alpha)> &= <\frac{\partial}{\partial u^i},\  F^*(dv^\alpha)> \\ 
-&= <\frac{\partial}{\partial u^i},\  \sum \limits _{j=1}^m \left(\frac{\partial F^\alpha}{\partial u^j} \right) _p \cdot du^j> \\ 
-&= \sum \limits _{j=1}^m <\frac{\partial}{\partial u^i},\ du^j> \cdot \left(\frac{\partial F^\alpha}{\partial u^j} \right) _p \\ 
-&= \sum \limits _{j=1}^m \delta _i^j \cdot \left(\frac{\partial F^\alpha}{\partial u^j} \right) _p \\ 
-&= \left(\frac{\partial F^\alpha}{\partial u^i} \right) _p \\ 
-&= <\sum \limits _{\beta=1}^n \left(\frac{\partial F^\beta}{\partial u^i} \right) _p \cdot \frac{\partial}{\partial v^\beta},\ dv^\alpha> \\ 
-&= \sum \limits _{\beta=1}^n \left(\frac{\partial F^\beta}{\partial u^i} \right) _p \cdot <\frac{\partial}{\partial v^\beta},\ dv^\alpha> \\ 
-&= \sum \limits _{\beta=1}^n \left(\frac{\partial F^\beta}{\partial u^i} \right) _p \cdot \delta _\beta^\alpha \end{aligned}
+\begin{aligned} <F _* \left(\frac{\partial}{\partial u^i} \right), (dv^\alpha)> \ &= \ <\frac{\partial}{\partial u^i},\  F^*(dv^\alpha)> \\ &= <\frac{\partial}{\partial u^i},\  \sum \limits_{j=1}^m \left(\frac{\partial F^\alpha}{\partial u^j} \right) _p \cdot du^j> \\ &= \sum \limits_{j=1}^m <\frac{\partial}{\partial u^i},\     du^j> \cdot \left(\frac{\partial F^\alpha}{\partial u^j} \right) _p \\ &= \sum \limits_{j=1}^m \delta _i^j \cdot \left(\frac{\partial F^\alpha}{\partial u^j} \right) _p \\ &= \left(\frac{\partial F^\alpha}{\partial u^i} \right) _p \\ &= <\sum \limits_{\beta=1}^n \left(\frac{\partial F^\beta}{\partial u^i} \right) _p \cdot \frac{\partial}{\partial v^\beta},\ dv^\alpha> \\ &= \sum \limits_{\beta=1}^n \left(\frac{\partial F^\beta}{\partial u^i} \right) _p \cdot <\frac{\partial}{\partial v^\beta},\ dv^\alpha> \\ &= \sum \limits_{\beta=1}^n \left(\frac{\partial F^\beta}{\partial u^i} \right) _p \cdot \delta _\beta^\alpha \end{aligned}
 $$
 
 i.e.
@@ -396,4 +386,4 @@ $$
 F _* \left(\frac{\partial}{\partial u^i} \right) =  \sum \limits _{\beta=1}^n \left(\frac{\partial F^\beta}{\partial u^i} \right) _p \cdot \frac{\partial}{\partial v^\beta}
 $$
 
-Hence the matrix representation of the tangent map ${F}$, under the natural bases $*{\{\partial / \partial u^i\}}$* and $*{\{\partial / \partial v^\alpha\}}$* is still the Jacobian matrix ${(\partial F^\alpha / \partial u^i)}.$
+Hence the matrix representation of the tangent map ${F}$, under the natural bases $*{\{\partial / \partial u^i\}}$* and ${\{\partial / \partial v^\alpha\}}$ is still the Jacobian matrix ${(\partial F^\alpha / \partial u^i)}.$
