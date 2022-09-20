@@ -377,10 +377,10 @@ $$
 &= \sum \limits_{i=1}^m \left(\frac{\partial F^\alpha}{\partial u^i} \right) _p \cdot du^i \end{aligned}
 $$
 
-The matrix representation of ${F^*}$ in the natural bases ${dv^\alpha}$ and ${du^i}$ is exactly the Jacobian matrix ${(dF^\alpha/du^i)}$.
+The matrix representation of ${F^\*}$ in the natural bases ${dv^\alpha}$ and ${du^i}$ is exactly the Jacobian matrix ${(dF^\alpha/du^i)}$.
 
 $$
-\begin{aligned} <F _* \left(\frac{\partial}{\partial u^i} \right), (dv^\alpha)> \ &= \ <\frac{\partial}{\partial u^i},\  F^*(dv^\alpha)> \\ 
+\begin{aligned} <F _\* \left(\frac{\partial}{\partial u^i} \right), (dv^\alpha)> \ &= \ <\frac{\partial}{\partial u^i},\  F^*(dv^\alpha)> \\ 
 &= <\frac{\partial}{\partial u^i},\  \sum \limits _{j=1}^m \left(\frac{\partial F^\alpha}{\partial u^j} \right) _p \cdot du^j> \\ 
 &= \sum \limits _{j=1}^m <\frac{\partial}{\partial u^i},\ du^j> \cdot \left(\frac{\partial F^\alpha}{\partial u^j} \right) _p \\ 
 &= \sum \limits _{j=1}^m \delta _i^j \cdot \left(\frac{\partial F^\alpha}{\partial u^j} \right) _p \\ 
