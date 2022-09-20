@@ -362,13 +362,13 @@ $$
 <F _* X, \ \alpha> \ = \ <X, \ F^* \alpha>
 $$
 
-Suppose ${u ^i}$ **and ${v ^ \alpha}$ are local coordinates near ${p}$ and ${q}$, respectively. Then
+Suppose ${u ^i}$ and ${v ^ \alpha}$ are local coordinates near ${p}$ and ${q}$, respectively. Then
 
 $$
 v^\alpha = F^\alpha(u ^1, u^2, \cdots,u^m) \quad \quad 1 \le \ \alpha \ \le n
 $$
 
-Thus the action of ${F^*}$ on the natural basis $*{\{dv ^\alpha, 1 \le \alpha \le n\}}$* is given by
+Thus the action of ${F^*}$ on the natural basis ${\{dv ^\alpha, 1 \le \alpha \le n\}}$ is given by
 
 $$
 \begin{aligned} F^* (dv^\alpha) &= d(v^\alpha \circ F) \\ &= \sum \limits_{i=1}^m \left(\frac{\partial F^\alpha}{\partial u^i} \right) _p \cdot du^i \end{aligned}
